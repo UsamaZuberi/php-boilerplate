@@ -1,0 +1,44 @@
+{
+  "name": "php-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "author": {
+    "name": "Muhammad Usama Zuberi",
+    "url": "http://usama-zuberi.web.app"
+  },
+  "scripts": {
+    "dev": "gulp watch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UsamaZuberi/php-boilerplate.git"
+  },
+  "browserslist": [
+    "defaults",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "~7.20.12",
+    "@babel/preset-env": "~7.20.2",
+    "autoprefixer": "9.6.1",
+    "browser-sync": "~2.27.11",
+    "cssnano": "4.1.10",
+    "del": "3.0.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "~8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "7.0.0",
+    "gulp-jshint": "2.1.0",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "*",
+    "gulp-svgmin": "2.1.0",
+    "gulp-uglify": "~3.0.2",
+    "jshint": "2.9.6",
+    "jshint-stylish": "2.2.1",
+    "postcss": "8.3.11",
+    "sass": "~1.57.1"
+  }
+}

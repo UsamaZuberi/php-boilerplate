@@ -1,0 +1,40 @@
+// Placeholder Styling
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+
+  &::placeholder {
+    @content;
+  }
+}
+
+// Trim Text
+@mixin trim($args...) {
+  display: -webkit-box !important;
+  -webkit-line-clamp: $args;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Fit Content
+@mixin fitContent {
+  display: inline-block;
+  width: intrinsic;
+  width: -webkit-fit-content;
+  width: -o-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}

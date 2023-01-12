@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: var(--primaryTextColor);
+  background-color: var(--bodyColor);
+}
+
+// Container
+.wrapper,
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+// Max Container
+.wrapper-fluid,
+.container-fluid {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+// Section
+.section {
+  &:not(.no-padding) {
+    padding-top: var(--gap);
+    padding-bottom: var(--gap);
+  }
+  &.padding-bottom-none {
+    padding-bottom: 0;
+  }
+  &.padding-top-none {
+    padding-top: 0;
+  }
+}

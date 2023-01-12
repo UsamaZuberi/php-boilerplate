@@ -1,0 +1,12 @@
+// Charset
+@charset 'utf-8';
+// CSS Reset
+@import "./partials/reset";
+// Fonts
+@import "./partials/fonts";
+// Global Styling
+@import "./partials/global";
+// SCSS Mixins
+@import "./partials/mixins";
+// CSS Color Theme
+@import "./partials/theme";
